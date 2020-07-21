@@ -11,7 +11,7 @@ const server = http.Server(app);
 setupWebsocket(server);
 
 //string de conexao - mongodb
-mongoose.connect('mongodb+srv://<user>:<password>@cluster0-xxjkw.mongodb.net/week10?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://<user>:<password>@cluster0-xxjkw.mongodb.net/week10?retryWrites=true&w=majority', { 
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
